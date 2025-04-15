@@ -14,5 +14,3 @@ if status is-interactive
     alias ff='fzf --bind \'enter:become(nvim {})\''
     alias reload='source ~/.config/fish/config.fish'
 end
-
-pyenv init - fish | source
